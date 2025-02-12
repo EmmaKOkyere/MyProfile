@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;  
+    font-size: larger;
+    background-color: rgb(254, 250, 248);
+}
+nav {
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+h1 {
+    color: steelblue;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
+
+main {
+    max-width: 840px;
+}
+
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+
+.root {
+    --my-favorite-color: steelblue;
+}
+
+.container {  
+    max-width: 600px;  
+    margin: auto;  
+    padding: 20px;  
+    background: #fff;  
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}  
+
+h2 {  
+    text-align: center;  
+    color: #333;  
+}  
+
+.social-links {  
+    list-style: none;  
+    padding: 0;  
+    text-align: center;  
+}  
+
+.social-links li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+.social-links a {  
+    text-decoration: none;  
+    color: #007BFF;  
+    font-weight: bold;  
+}  
+
+.social-links a:hover {  
+    text-decoration: underline;  
+}  
+
+.returnbutton {
+    background-color: rgb(243, 242, 248);
+    width: 100px;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.projects-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+.project {  
+    background: white;  
+    margin: 15px 0;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    width: 80%;  
+    max-width: 600px; /* Limit width */  
+}  
+
+.project h2 {  
+    color: #007BFF; /* Change to your preferred color */  
+}  
+
+.project a {  
+    display: inline-block;  
+    margin-top: 10px;  
+    padding: 10px 15px;  
+    background-color: #007BFF;  
+    color: white;  
+    text-decoration: none;  
+    border-radius: 5px;  
+}  
+
+.project a:hover {  
+    background-color: #0056b3; /* Darken color on hover */  
+}  
