@@ -1,7 +1,8 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    background-color: rgb(254, 250, 248);
+    background-image: url(https://www.pexels.com/photo/snow-on-evergreen-leaves-15499000/);
+    background-size: cover;
 }
 
 nav {
@@ -16,6 +17,7 @@ nav a {
     padding: 20px;
     display: block;
 }
+
 
 h1 {
     color: steelblue;
@@ -42,6 +44,7 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    background-color: green;
 }
 
 
@@ -132,3 +135,9 @@ h2 {
     background-color: #0056b3;
     /* Darken color on hover */
 }
+
+#toggle-button {
+    background-color: #007BFF;
+}
+
+
