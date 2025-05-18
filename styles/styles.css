@@ -39,7 +39,7 @@ p {
     display: inline-block;
     border-radius: 0%;
     border-style: groove;
-    border-color: lightblue;
+    box-shadow: 0 0 30px lightskyblue;
 }
 
 main {
