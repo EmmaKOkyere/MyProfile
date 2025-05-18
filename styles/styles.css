@@ -35,6 +35,13 @@ p {
     padding: 10px;
 }
 
+.parag {
+    display: inline-block;
+    border-radius: 0%;
+    border-style: groove;
+    border-color: lightblue;
+}
+
 main {
     max-width: 840px;
 }
@@ -51,7 +58,7 @@ footer {
     display: flex;
     justify-content: center;
     overflow-x: auto;
-    white-space: wrap;
+    white-space: nowrap;
 }
 
 .root {
